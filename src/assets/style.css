@@ -2,32 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  body {
+body {
     background-color: #f0f4f8;
     font-family: "Quicksand", sans-serif;
     display: flex;
     justify-content: center;
     padding: 40px;
-  }
+}
 
-  .form-cartoes {
+.form-cartoes {
     width: 100%;
     max-width: 640px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
+}
 
-  .form-titulo {
+.form-titulo {
     background: linear-gradient(rgba(0, 0, 0, 0.3)), url(../public/foto-programacao.jpg) center/cover;
     color: #ffffff;
-    padding: 50px;
+    padding: 50px 0 0;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-  }
+}
+
+.form-titulo p {
+    display: flex;
+    color: #ffffff;
+    padding: 20px;
+    text-align: flex-start;
+}
 
 .form-conteudo {
     background-color: #ffffff;

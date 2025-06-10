@@ -10,6 +10,7 @@ const numero = document.querySelector<HTMLInputElement>("#numero")!;
 const bairro = document.querySelector<HTMLInputElement>("#bairro")!;
 const cidade = document.querySelector<HTMLSelectElement>("#cidade")!;
 const estado = document.querySelector<HTMLSelectElement>("#estado")!;
+const cursos = document.querySelector<HTMLSelectElement>("#cursos")!;
 
 
 // Função para limpar campos
@@ -38,6 +39,7 @@ formulario.addEventListener("submit", async(form) => {
     bairro: bairro.value,
     cidade: cidade.value,
     estado: estado.value,
+    curso: cursos.value,
     observacoes: (document.querySelector<HTMLTextAreaElement>("#observacoes")?.value) || "",
   };
 
