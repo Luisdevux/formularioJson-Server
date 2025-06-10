@@ -1,0 +1,30 @@
+{
+  "usuarios": [
+    {
+      "id": "1bbd",
+      "nome": "Luis Felipe Lopes",
+      "email": "luis.felipe.lopes1275@gmail.com",
+      "sexo": "Masculino",
+      "cep": "76987858",
+      "logradouro": "Rua Trezentos e Quarenta e Cinco",
+      "numero": "527",
+      "bairro": "Parque Industrial Tancredo Neves",
+      "cidade": "VILHENA",
+      "estado": "RO",
+      "observacoes": "Será que funciona?"
+    },
+    {
+      "id": "0cbf",
+      "nome": "Silvio Huan Matheus Grein Cristo",
+      "email": "silviocasquinhadesorvete@gmail.com",
+      "sexo": "Feminino",
+      "cep": "76987858",
+      "logradouro": "Rua Trezentos e Quarenta e Cinco",
+      "numero": "527",
+      "bairro": "Parque Industrial Tancredo Neves",
+      "cidade": "VILHENA",
+      "estado": "RO",
+      "observacoes": "Supimpa"
+    }
+  ]
+}
