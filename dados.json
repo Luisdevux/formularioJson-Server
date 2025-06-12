@@ -1,44 +1,32 @@
 {
   "usuarios": [
     {
-      "id": "1bbd",
+      "id": "3421",
       "nome": "Luis Felipe Lopes",
       "email": "luis.felipe.lopes1275@gmail.com",
       "sexo": "Masculino",
-      "cep": "76987858",
+      "cep": "76987-858",
       "logradouro": "Rua Trezentos e Quarenta e Cinco",
       "numero": "527",
       "bairro": "Parque Industrial Tancredo Neves",
       "cidade": "VILHENA",
       "estado": "RO",
-      "observacoes": "Será que funciona?"
+      "curso": "HTML e CSS",
+      "observacoes": ""
     },
     {
-      "id": "0cbf",
-      "nome": "Silvio Huan Matheus Grein Cristo",
-      "email": "silviocasquinhadesorvete@gmail.com",
-      "sexo": "Feminino",
-      "cep": "76987858",
-      "logradouro": "Rua Trezentos e Quarenta e Cinco",
-      "numero": "527",
-      "bairro": "Parque Industrial Tancredo Neves",
-      "cidade": "VILHENA",
-      "estado": "RO",
-      "observacoes": "Supimpa"
-    },
-    {
-      "id": "1790",
-      "nome": "Luis Felipe Lopes",
-      "email": "luis.felipe.lopes1275@gmail.com",
+      "id": "1a48",
+      "nome": "Silvio Huan",
+      "email": "silvio.huan@gmail.com",
       "sexo": "Masculino",
-      "cep": "76987858",
+      "cep": "76987-858",
       "logradouro": "Rua Trezentos e Quarenta e Cinco",
       "numero": "527",
       "bairro": "Parque Industrial Tancredo Neves",
       "cidade": "VILHENA",
       "estado": "RO",
-      "curso": "1",
-      "observacoes": "Algo"
+      "curso": "Git",
+      "observacoes": ""
     }
   ]
 }

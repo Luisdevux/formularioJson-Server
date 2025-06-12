@@ -12,6 +12,13 @@ const cidade = document.querySelector<HTMLSelectElement>("#cidade")!;
 const estado = document.querySelector<HTMLSelectElement>("#estado")!;
 const cursos = document.querySelector<HTMLSelectElement>("#cursos")!;
 
+// Script para dark mode da página
+function toggleMode() {
+  const html = document.documentElement
+  html.classList.toggle("dark");
+}
+
+(window as any).toggleMode = toggleMode;
 
 // Função para limpar campos
 function limparFormulario() {
@@ -39,7 +46,7 @@ formulario.addEventListener("submit", async(form) => {
     bairro: bairro.value,
     cidade: cidade.value,
     estado: estado.value,
-    curso: cursos.value,
+    curso: cursos.options[cursos.selectedIndex].text,
     observacoes: (document.querySelector<HTMLTextAreaElement>("#observacoes")?.value) || "",
   };
 
@@ -64,6 +71,7 @@ formulario.addEventListener("submit", async(form) => {
     alert("Cadastrado efetuado com sucesso!");
     formulario.reset();
     limparFormulario();
+    await preencherEstados();
   } catch (err) {
     alert("Erro ao efetuar o cadastro! Tente novamente...");
     console.error(err);
@@ -124,7 +132,15 @@ async function consultarCep() {
 
     estado.value = body.state;
     await preencherCidades(body.state);
-    cidade.value = body.city;
+
+    const cidadeNome = (body.city || "").toLowerCase();
+    for (const option of cidade.options) {
+      const optionNome = option.value.toLowerCase();
+      if (optionNome === cidadeNome) {
+        cidade.value = option.value;
+        break;
+      }
+    }
 
   } catch (err) {
     alert("Erro ao buscar CEP.");
