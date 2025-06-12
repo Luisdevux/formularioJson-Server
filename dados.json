@@ -1,31 +1,17 @@
 {
   "usuarios": [
     {
-      "id": "3421",
-      "nome": "Luis Felipe Lopes",
-      "email": "luis.felipe.lopes1275@gmail.com",
+      "id": "aab5",
+      "nome": "Teste Formulário",
+      "email": "teste@gmail.com",
       "sexo": "Masculino",
-      "cep": "76987-858",
-      "logradouro": "Rua Trezentos e Quarenta e Cinco",
-      "numero": "527",
-      "bairro": "Parque Industrial Tancredo Neves",
-      "cidade": "VILHENA",
+      "cep": "76871-276",
+      "logradouro": "Avenida Campinas",
+      "numero": "400A",
+      "bairro": "Jardim Paulista",
+      "cidade": "ARIQUEMES",
       "estado": "RO",
       "curso": "HTML e CSS",
-      "observacoes": ""
-    },
-    {
-      "id": "1a48",
-      "nome": "Silvio Huan",
-      "email": "silvio.huan@gmail.com",
-      "sexo": "Masculino",
-      "cep": "76987-858",
-      "logradouro": "Rua Trezentos e Quarenta e Cinco",
-      "numero": "527",
-      "bairro": "Parque Industrial Tancredo Neves",
-      "cidade": "VILHENA",
-      "estado": "RO",
-      "curso": "Git",
       "observacoes": ""
     }
   ]
