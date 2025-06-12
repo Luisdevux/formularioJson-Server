@@ -139,6 +139,12 @@ textarea {
     transition: border 0.2s, box-shadow 0.2s;
 }
 
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px var(--cor-fundo) inset !important;
+    -webkit-text-fill-color: var(--cor-texto);
+}
+
+
 input:focus,
 select:focus,
 textarea:focus {
